@@ -17,6 +17,4 @@ number=int(input("Enter a number to get multipication table: \t"))
 if check_prime(number):
     get_multipication_table(number)
 
-
-#trying to commit
     
