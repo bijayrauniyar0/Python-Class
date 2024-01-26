@@ -1,12 +1,12 @@
 # to check if the year is leap or not
 
-def check_leap(num):
-    if num % 4 == 0 and num % 100 != 0:
-        print(f"{num} is a leap year")
-    elif num % 400 == 0:
-        print(f"{num} is a leap year")
+def check_leap(year):
+    if year % 4 == 0 and year % 100 != 0:
+        print(f"year {year} is a leap year")
+    elif year % 400 == 0:
+        print(f"year {year} is a leap year")
     else:
-        print(f"{num} is not a leap year")
+        print(f"year {year} is not a leap year")
 
 year = int(input("Enter year to check:\t"))
 check_leap(year)
